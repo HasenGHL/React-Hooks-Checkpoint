@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 20px;
+}
+
+.movie-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: auto;
+}
+
+
+/* movie card */
+.movie-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: auto;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* movie card poster */
+.movie-card img {
+  width: 100%;
+  height: 75%;
+}
+
+/* movie card title */
+.movie-card h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* movie card description */
+.movie-card p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* movie card rating */
+.movie-card .rating {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* filter form */
+.filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* filter form input */
+.filter-form input {
+  margin-right: 10px;
+}
+
+/* filter form button */
+.filter-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* add movie form */
+.add-movie-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* add movie form input */
+.add-movie-form input, .add-movie-form textarea {
+  margin-right: 10px;
+}
+
+/* add movie form button */
+.add-movie-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
